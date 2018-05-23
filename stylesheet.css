@@ -1,0 +1,167 @@
+/*Horizontal*/
+.nav-container{ 	
+width:100%; 
+background-color: #a3112a;
+box-shadow: 2px 2px 20px #7E7F79;  
+position:fixed; 
+left:0;  
+top:0;
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; 
+list-style-type: none; 
+font-size:18px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+
+.nav-container li{
+float: right;
+}  
+
+.nav-container a{ 
+display: block;  
+box-sizing: border-box;
+width: 130px; 
+padding: 10px;
+text-decoration: none; 
+text-align: center; 
+background-color: #58595b; 
+color:#ffffff;
+} 
+
+.nav-container a:hover{ 
+background-color: #707275;
+
+}
+
+.nav-container a:active{ 
+background-color:#8b8d8e;
+
+}
+/*Vertical*/
+.nav-vertical{ 	
+	height:100%;
+	background-color: #a3112a;
+	position:fixed; 
+	left:0;  
+	top:46px;  
+	} 
+
+.nav-vertical ul{
+
+	margin: 0 auto; 
+	padding:0; 
+	list-style-type: none; 
+	font-size:18px;  
+	font-family:"Gill Sans", sans-serif;
+	}   
+
+.nav-vertical a{ 
+
+	display: block;  
+	box-sizing: border-box; 
+	width: 130px; 
+	padding: 10px;
+	text-decoration: none;
+	text-align: center; 
+	} 
+.nav-vertical a:link{
+	background-color:#58595b; 
+	color:white; 
+	}
+
+.nav-vertical a:visited{ 
+	background-color:#58595b; 
+	color:white; 
+	}
+
+.nav-vertical a:hover{ 
+	background-color:#707275; 
+	color:white; 
+	}
+
+.nav-vertical a:active{ 
+	background-color:#8b8d8e;
+	color:white;
+	}
+
+
+.mydiv{
+	box-sizing:border-box;
+	border: solid 15px #cccccc;
+	padding: 0;
+	float:left;
+	margin: 25px 25px 25px 0;
+	}
+	.mydiv-right{
+	box-sizing:border-box;
+	border: solid 15px #cccccc;
+	padding: 0;
+	float:right;
+	margin: 0 0 25px 25px;
+	}
+
+.center-responsive{ 
+	display:block;
+	max-width:100%; 
+	max-height: 100%;
+	margin:0 auto;
+	}
+
+audio{
+ 	width:100%;
+}
+
+
+.video-left{
+	margin: 0 15px 10px 15px;
+	float:left;
+	margin: 0 0 0 0;
+	border: solid 15px #cccccc;
+	
+}
+.video-right{
+	clear:right;
+	float:right;
+	margin: 0 0px 10px 15px;
+	border: solid 15px #cccccc;
+	padding: 0;
+}
+
+.anim2{
+	border: solid 15px #cccccc;
+	
+}
+
+body{
+	margin: 80px 15% 50px 15%;
+	font-family: 'Pathway Gothic One', sans-serif;	
+	color:#d0d7e2;
+	}
+h1{
+	font-size:36px;
+	color:black;
+	font-family: 'Pathway Gothic One', sans-serif;
+
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 0;
+	color: black;
+	}
+p{
+	
+	color:black;
+	font-size:20px;
+	}
+
+}
+panel-heading {
+	font-size: 36px;
+}
+h5{
+	color:black;
+}
